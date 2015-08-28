@@ -1,8 +1,16 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+gem 'jekyll', '~> 2.5'
+gem 'asciidoctor', '~> 1.5'
+gem 'coderay', '1.1.0'
 
-gem 'github-pages', versions['github-pages']
-gem 'rake'
+group :jekyll_plugins do
+	  gem "jekyll-asciidoc"
+end
+
+group :development do
+	  gem "pry"
+	    gem "pry-byebug"
+end
+
+gem 'stringex'

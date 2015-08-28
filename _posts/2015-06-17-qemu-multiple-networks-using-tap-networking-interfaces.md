@@ -6,7 +6,6 @@ category:
 tags: [virtualization, networking]
 comments: true
 ---
-
 First of all we have to configure the host, because the guest needs to share the network
 configuration using the virtualization method proposed by the TAP mechanism.
 Suppose we want two network interface: the first is a NAT "hand made" and the second is a private

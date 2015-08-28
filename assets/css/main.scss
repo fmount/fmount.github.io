@@ -116,9 +116,9 @@ h6 {
 
 p {
   line-height: 1.6;
-  @include font-size(14px);
+  @include font-size(12px);
   @include MQ(M) {
-    @include font-size(18px);
+    @include font-size(16px);
   }
 }
 
@@ -221,6 +221,7 @@ header.main-header {
     width: 15px;
   }
 
+}
   ul li a { 
     display:inline-block;
     color: inherit;
@@ -234,134 +235,6 @@ header.main-header {
       border-bottom-color: inherit;
     }
   }
-}
-
-footer.main-footer {
-  background-color: $base-00;
-  color: $base-07;
-  .column {
-    float:left;
-    @include column(1);
-
-    @include MQ(M) {
-      &.one, &.two {
-        @include column(.5);
-        display: block;
-      }
-    }
-  }
-
-  h6 {
-      position: relative;
-      padding: 10px 0;
-      text-transform: uppercase;
-  }
-  h6::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      width: 2em;
-      height: 2px;
-      background: $base-07;
-      overflow: hidden;
-  } 
-
-  ul.menu {
-    padding: 0 0 1em 0;
-    li {
-      @include font-size(12px);
-      line-height: 1.6;
-      display: inline;
-      padding-right: 10px;        
-      @include MQ(M) {
-        @include font-size(16px);          
-      }
-    }
-  }
-
-  p.disclaimer {
-    text-align: center;
-  }
-
- ul.social-media {
-  text-align:left;
-  padding: 0 0 10px 0;
-  li { 
-    display:inline-block;
-  }
-  li > a {
-    width: 32px;
-    height: 32px;
-    background: $base-07;
-    background-image: url("./images/socials-icons.svg");
-    background-size: 224px 64px;
-    border-radius: 0.25em;
-    @include transition(background-color 0.2s);
-    border-bottom-color: transparent;
-
-    &:hover {
-      background-color: $base-08;
-    }
-  }
-    
-  li a.twitter {
-    background-position: 0 0;
-      &:hover {
-        background-position: 0 -32px;
-    } 
-  }
-
-  li a.github {
-    background-position: -32px 0;
-    &:hover {
-      background-position: -32px -32px;
-    }
-  }
-
-  li a.facebook {
-    background-position: -64px 0;
-    &:hover {
-      background-position: -64px -32px;
-    }
-  }
-
-  li a.dribble {
-    background-position: -96px 0;
-    &:hover {
-      background-position: -96px -32px;
-    }
-  }
-
-  li a.google {
-    background-position: -128px 0;
-    &:hover {
-      background-position: -128px -32px;
-    }
-  }
-
-  li a.pinterest {
-      background-position: -196px 0;
-      &:hover {
-        background-position: -196px -32px;
-      }
-    }
-  }
-}
-
-.no-svg footer.main-footer ul.social-media li a {
-  width: 32px;
-    height: 32px;
-    background-color: $base-07;
-    background-image: url("./images/socials-icons.png");
-    background-size: 224px 64px;
-    border-radius: 0.25em;
-    @include transition(background-color 0.2s);
-    border-bottom-color: transparent;
-
-    &:hover {
-      background-color: $base-08;
-    }
-}
 
 div.page-content {
   @extend .default-page-content;
