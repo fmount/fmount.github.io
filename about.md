@@ -3,16 +3,16 @@ layout: page
 title: About me
 permalink: /about/
 ---
-:github: https://github.com/frances-co[Github]
-:twitter: https://twitter.com/frances__co[Twitter]
 
 Hi, I am _frances-co_, a developer based on Italy.
 Graduated from the University of Catania, I'm open source enthusiast, I love travel and spend my
 free time with my family :D
 
-==  Contact me
+## Contact me
 
-Find me on {github} / {Twitter} or just say `Hello` at
-mailto:francesco.pan001@gmail.com[francesco.pan001@gmail.com]
+Find me on [Github]{github} / [Twitter]{twitter} or just say `Hello` at [francesco.pan001@gmail.com](francesco.pan001@gmail.com)
 
+
+[github]: https://github.com/frances-co
+[:twitter]: https://twitter.com/frances__co
 
