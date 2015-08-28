@@ -10,9 +10,9 @@ free time with my family :D
 
 ## Contact me
 
-Find me on [Github]{github} / [Twitter]{twitter} or just say `Hello` at [francesco.pan001@gmail.com](francesco.pan001@gmail.com)
+Find me on [Github] / [Twitter] or just say `Hello` at [francesco.pan001@gmail.com](francesco.pan001@gmail.com)
 
 
 [github]: https://github.com/frances-co
-[:twitter]: https://twitter.com/frances__co
+[twitter]: https://twitter.com/frances__co
 
