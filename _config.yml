@@ -2,14 +2,14 @@
 baseurl:
 
 # Site live URL
-url: http://frances-co.github.io
+url: http://aayec.github.io
 
 # Localhost 
 #url: http://127.0.0.1:4000
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: '#frances-co'
+  name: '#aayec'
   comments: true
   # Little description about your site
   #description: 
@@ -19,16 +19,16 @@ harmony:
   #meta_description: > # 
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: frances-co
+    name: aayec
     email: francesco.pan001@gmail.com
-    url: http://frances-co.github.io
+    url: http://aayec.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-65180701-1
 
   # Profile links, leave blank to ignore
   social: 
-    github: frances-co
+    github: aayec
     keybase: frances_co
 
 # Conversion / Build settings 
