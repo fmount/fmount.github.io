@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 2.5'
-gem 'asciidoctor', '~> 1.5'
+gem 'asciidoctor', '~> 1.5.4'
 gem 'coderay', '1.1.0'
 
 group :jekyll_plugins do
