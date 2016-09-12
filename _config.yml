@@ -2,14 +2,14 @@
 baseurl:
 
 # Site live URL
-url: http://aayek.github.io
+url: http://fmount.github.io
 
 # Localhost 
 #url: http://127.0.0.1:4000
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: '#aayek'
+  name: '#fmount'
   comments: true
   # Little description about your site
   #description: 
@@ -19,17 +19,17 @@ harmony:
   #meta_description: > # 
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: aayek
+    name: fmount
     email: francesco.pan001@gmail.com
-    url: http://aayek.github.io
+    url: http://fmount.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-66941260-1
 
   # Profile links, leave blank to ignore
   social: 
-    github: aayek
-    keybase: frances_co
+    github: fmount
+    keybase: fmount
 
 # Conversion / Build settings 
 
@@ -57,13 +57,13 @@ sass:
     style: :compressed
 
 
-# Add support for AsciiDoc posts using Asciidoctor
-gems:
-  - jekyll-asciidoc
-
-asciidoctor:
-    attributes:
-        - icons=font
-        - hardbreaks!
-        - source-highlighter=coderay
+## Add support for AsciiDoc posts using Asciidoctor
+#gems:
+#  - jekyll-asciidoc
+#
+#asciidoctor:
+#    attributes:
+#        - icons=font
+#        - hardbreaks!
+#        - source-highlighter=coderay
 
