@@ -8,10 +8,9 @@
         <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
         <link rel="canonical" 
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        
-        <!-- Harmony styles -->
+		
+		<!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
-
         <!-- Modernizr js -->
         <script async src="{{ site.baseurl }}/assets/js/modernizr.js"></script>    
 
@@ -46,7 +45,7 @@
             </p>
         </footer>
 -->
-        <script type="text/javascript">
+<!--        <script type="text/javascript">
           /* To avoid render blocking css */
           var cb = function() {
             var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -57,7 +56,8 @@
               webkitRequestAnimationFrame || msRequestAnimationFrame;
           if (raf) raf(cb);
           else window.addEventListener('load', cb);
-        </script>
+			</script>
+-->
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- When no internet load JQuery from local -->
