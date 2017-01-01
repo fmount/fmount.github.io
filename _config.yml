@@ -2,7 +2,7 @@
 baseurl:
 
 # Site live URL
-url: http://fmount.github.io
+url: https://fmount.me
 
 # Localhost 
 #url: http://127.0.0.1:4000
@@ -20,8 +20,8 @@ harmony:
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: fmount
-    email: francesco.pan001@gmail.com
-    url: http://fmount.github.io
+    email: francesco.pantano@linux.com
+    url: https://fmount.me
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-66941260-1

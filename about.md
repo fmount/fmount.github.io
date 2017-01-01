@@ -8,12 +8,12 @@ permalink: /about/
 What I do
 ---------
 
-I'm currently employed by a large Telco company, where I work as a System Engineer.  
-I started out as a Linux System Engineer on the Operations Engineering team, responsible for the
-infrastructure and architecture of our systems, as well as maintenance and support of production
-and non-production environments. My areas of specialization included automation, Puppet,
-and monitoring (specifically Nagios, Graphite, statsd, and Diamond), but I'm also active as a 
-software developer in many open source projects.
+I'm currently employed by a large Telco company, where I work as a Cloud System Engineer focusing on
+Openstack Infrastructures.
+I started out as a Linux System Engineer on the Ops Eng team, responsible for the infrastructure and 
+architecture of our systems, as well as maintenance and support of production and non-production 
+environments. My areas of specialization included automation and containerization, but I started my 
+professional career as a Dev, so I'm also active as a in many open source projects.
 
 
 
@@ -34,7 +34,7 @@ thought of ancient philosophers.
 
 ## Contact me
 
-Find me on [Github] / [Twitter] or just say `ping` at [francesco001@gmail.com](mailto:francesco.pan001@gmail.com) using [GPG]
+Find me on [Github] / [Twitter] or just say `ping` at [francesco.pantano@linux.com](mailto:francesco.pantano@linux.com) using [GPG]
 
 [github]: https://github.com/fmount
 [twitter]: https://twitter.com/fmount9
