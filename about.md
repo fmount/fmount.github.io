@@ -31,8 +31,8 @@ thought of ancient philosophers.
 
 
 
-
-## Contact me
+Contact me
+----------
 
 Find me on [Github] / [Twitter] or just say `ping` at [francesco.pantano@linux.com](mailto:francesco.pantano@linux.com) using [GPG]
 
