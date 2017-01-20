@@ -31,7 +31,7 @@ harmony:
   social: 
     github: fmount
     keybase: fmount
-
+    rss: feed.xml
 # Conversion / Build settings 
 
 markdown:    kramdown
