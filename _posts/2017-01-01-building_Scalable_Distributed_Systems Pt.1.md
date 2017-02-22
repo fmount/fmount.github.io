@@ -2,8 +2,8 @@
 layout: post
 title: "Building Scalable Distributed Systems - Pt. 1"
 description: ""
-category: vim
-tags: [vim]
+category: distributed
+tags: [distributed, scalable]
 comments: True
 ---
 
