@@ -35,7 +35,7 @@ updates or modifications, and how simple the system is to operate. (I.e., does i
 and maintain the system. The amount of developer time the system takes to build, the amount of operational effort required to run the system, and even the amount 
 of training required should all be considered.
 
-Each of these principles provides the basis for decisions in designing a distributed architecture and one important thing is to consider to achieve a good tradeoff
+Each of these principles provides the basis for decisions in designing a distributed architecture and one important thing is to consider to achieve a good trade off
 among these features we would like to provide, for instance, choosing to address capacity by simply adding more servers (scalability) can come at the price of manageability (you have to operate an additional server) and cost (the price of the servers).
 
 This discussion is focused on some of the core factors that are central to almost all large Web applications: we are talking about __services__, __redundancy__, __partitions__, and __handling failure__. Each of these factors involves choices and compromises, particularly in the context of the principles described previously. In order to explain these in detail it is best to start with an example.
@@ -49,7 +49,7 @@ For big sites that host and deliver lots of images, there are challenges in buil
 and has low latency (fast retrieval). There is also the need to understand how to manage a great flow of data to keep images with the right level of quality,
 to retrieve data in an efficient manner, trading off the costs for that kind of operations and the manageability of the system.
 
-For a better explaination, let's assume that this application has two key parts: the ability to upload (write) an image to the server, and the ability to query for an image.
+For a better explanation, let's assume that this application has two key parts: the ability to upload (write) an image to the server, and the ability to query for an image.
 While we certainly want the upload to be efficient, we care most about having very fast delivery when someone requests an image, so we can say we have these constraints:
 
 1. There is no limit to the number of images that will be stored, so storage scalability, in terms of image count needs to be considered
