@@ -2,8 +2,8 @@
 layout: post
 title: "The tmux quickfix plugin"
 description: ""
-category: distributed
-tags: [distributed, scalability, proxy, loadbalancing]
+category: linux
+tags: [tmux]
 comments: True
 ---
 
