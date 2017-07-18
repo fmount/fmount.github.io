@@ -34,7 +34,7 @@ thought of ancient philosophers.
 Contact me
 ----------
 
-Find me on [Github] / [Twitter] or just say `ping` at [francesco.pantano@linux.com](mailto:francesco.pantano@linux.com) using [GPG]
+Find me on [Github] / [Twitter] or just say `ping` at [francesco dot pan001 at gmail dot com](mailto:francesco.pan001@gmail.com) using [GPG]
 
 [github]: https://github.com/fmount
 [twitter]: https://twitter.com/fmount9
