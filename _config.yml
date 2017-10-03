@@ -38,6 +38,7 @@ harmony:
     twitter: fmount9
     keybase: fmount
     rss: feed.xml
+    talks: talks
 # Conversion / Build settings 
   show_disclaimer: true
 
@@ -64,8 +65,8 @@ sass:
     sass_dir: assets/css/_sass
     style: :compressed
 
-# Add support for the feed RSS
-gems:
+# Add support for the feed talks
+plugins:
   - jekyll-feed
 feed:
   path: feed.xml
