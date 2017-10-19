@@ -20,7 +20,7 @@ professional career as a Dev, so I'm also active as a in many open source projec
 A bit about me
 --------------
 
-I am an engineer based on Italy.
+I am an engineer based in Italy.
 I come from Sicily, land of good hopes, good food, good people.
 I love travel and spend my free time with my family...and today, the biggest and
 difficult challenge of my life is to be a good father.  
@@ -34,8 +34,8 @@ thought of ancient philosophers.
 Contact me
 ----------
 
-Find me on [Github] / [Twitter] or just say `ping` at [francesco dot pan001 at gmail dot com](mailto:francesco.pan001@gmail.com) using [GPG]
+Find me on [Github] / [Twitter] or just say `ping` at [fmount9 at autistici org](mailto:fmount9@autistici.org) using [GPG]
 
 [github]: https://github.com/fmount
 [twitter]: https://twitter.com/fmount9
-[gpg]: https://pgp.mit.edu/pks/lookup?op=vindex&search=0x222292B8E1BBE005
+[gpg]: https://pgp.mit.edu/pks/lookup?search=0x1FCA0620&op=index
