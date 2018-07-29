@@ -9,8 +9,8 @@ What I do
 ---------
 
 I'm currently employed by a large Telco company, where I work as a Cloud System Engineer focusing on
-Openstack Infrastructures.
-I started out as a Linux System Engineer on the Ops Eng team, responsible for the infrastructure and 
+Openstack Infrastructure.
+I started out as a Software Engineer in the *R&D Engineering* team, responsible for the infrastructure and 
 architecture of our systems, as well as maintenance and support of production and non-production 
 environments. My areas of specialization included automation and containerization, but I started my 
 professional career as a Dev, so I'm also active as a in many open source projects.
