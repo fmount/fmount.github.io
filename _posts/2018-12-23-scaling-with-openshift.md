@@ -159,22 +159,22 @@ following:
         <?php
           $CONFIG = array (
           "log_type" => "syslog",
-          "datadirectory" => '{{ data_directory }}',
+          "datadirectory" => "<data_directory>",
           "updatechecker" => false,
           "check_for_working_htaccess" => false,
           "asset-pipeline.enabled" => false,
-          "assetdirectory" => '{{ asset_directory }}',
+          "assetdirectory" => '<asset_directory>',
 
           "apps_paths" => array(
              0 =>
               array (
-                  'path'=> '{{ apps_directory }}',
+                  'path'=> '<apps_directory>',
                   'url' => '/apps',
                   'writable' => true,
               ),
               1 =>
               array (
-                  'path' => '{{ apps_directory }}',
+                  'path' => '<apps_directory>',
                   'url' => '/apps-appstore',
                   'writable' => true,
               ),
@@ -183,12 +183,12 @@ following:
           'objectstore' => array(
           'class' => 'OC\Files\ObjectStore\S3',
           'arguments' => array(
-              "bucket" => "{\{ bucket_name }}",
+              "bucket" => "<bucket_name>",
               'autocreate' => true,
-              'key'    => '{{ accesskey }}',
-              'secret' => '{{ secretkey }}',
-              'hostname' => '{{ s3_endpoint }}',
-              'port' => '{{ s3_port }}',
+              'key'    => '<accesskey>',
+              'secret' => '<secretkey>',
+              'hostname' => '<s3_endpoint>',
+              'port' => '<s3_port>',
               'use_ssl' => true,
               'region' => 'optional',
               // required for some non amazon s3 implementations
