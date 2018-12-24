@@ -19,14 +19,10 @@ harmony:
     Networking
     Software Development
     Algorithms
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  #meta_description: > # 
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: fmount
-    email: francesco.pantano@linux.com
+    email: fmount9@autistici.org
     url: https://fmount.me
 
   # Google Analytics key, leave blank to ignore
@@ -80,4 +76,9 @@ feed:
 #        - icons=font
 #        - hardbreaks!
 #        - source-highlighter=coderay
-
+#Read time is based on the average reading speed of an adult 
+#(roughly 275 WPM). We take the total word count of a post 
+#and translate it into minutes. Then, we add 12 seconds for 
+#each inline image. Boom, read time.
+#
+#(word_count/275) minutes + (12*images_number) seconds
