@@ -23,28 +23,27 @@
 	{% endif %}
 	-->
 
-	{% if site.harmony.social.keybase %}
+	{% if site.harmony.social.github %}
+	<li>
+        <a title="{{ site.harmony.social.github }} on Github" 
+            href="https://github.com/{{ site.harmony.social.github }}" 
+            > / Github</a>
+	</li>
+	{% endif %}
 
+	{% if site.harmony.social.keybase %}
 	<li>
         <a title="{{ site.harmony.social.keybase }} on Keybase" 
             href="https://keybase.io/{{ site.harmony.social.keybase }}" 
             > / Keybase</a>
 	</li>
 	{% endif %}
-
-	{% if site.harmony.social.github %}
-    <li>
-        <a title="{{ site.harmony.social.github }} on Github" 
-            href="https://github.com/{{ site.harmony.social.github }}" 
-            >/ Github</a>
-    </li>
-	{% endif %}
 	
 	{% if site.harmony.social.rss %}
     <li>
-        <a title="{{ site.harmony.social.rss }} on RSS" 
-            href="https://fmount.me/{{ site.harmony.social.rss }}" 
-            >/ RSS</a>
+		<li>
+		<a href="{{ '/rss' | prepend: site.baseurl | prepend: site.url }}"> RSS</a><span>/</span>
+		</li>
     </li>
 	{% endif %}
 
