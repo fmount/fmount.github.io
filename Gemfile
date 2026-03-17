@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.2'
 gem 'asciidoctor', '~> 1.5.4'
+gem 'kramdown-parser-gfm'
 gem 'coderay', '1.1.0'
 gem 'colorator', '1.1.0'
 group :jekyll_plugins do
