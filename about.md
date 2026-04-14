@@ -17,10 +17,9 @@ and I'm a Linux (Gentoo/Archlinux) enthusiast since I was a student.
 A bit about me
 --------------
 
-I am an engineer based in Italy/Sicily, land of good food and good people.
-
-I love to travel and spend my free time with my family. Today, the biggest and
-most difficult challenge of my life is to be a good father.
+I am an engineer based in Italy/Sicily. I love to travel and spend my free time
+with my family. Today, the biggest and most difficult challenge of my life is to
+be a good father.
 
 I'm an Open Source enthusiast and I like following the latest news about the main open 
 source projects.
