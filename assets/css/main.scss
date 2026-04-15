@@ -624,6 +624,20 @@ div.post {
   padding-top: .5em;
   padding-bottom: 1em;
   border-bottom: 1px $base-05 solid;
+
+  ul {
+    @include font-size(12px);
+    padding-bottom: 1em;
+    list-style: disc;
+    margin-left: 0;
+    li {
+      color: $color-2;
+      line-height: 1.6;
+      padding: 0 0 5px 0px;
+      margin-left: 2em;
+      position: relative;
+    }
+  }
   @include MQ(M) {
 
     padding-bottom: 2em;  
